@@ -1,0 +1,101 @@
+/* Page background, text color and font */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f6fb;
+  color: #333333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: #1a3c6e;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Headings */
+h1 {
+  margin: 0 0 15px 0;
+  color: #ffffff;
+}
+
+h2 {
+  color: #1a3c6e;
+  border-bottom: 2px solid #1a3c6e;
+  padding-bottom: 5px;
+}
+
+/* Navigation links */
+nav a {
+  display: inline-block;
+  margin: 0 5px;
+  padding: 8px 16px;
+  color: #ffffff;
+  background-color: #2f5aa0;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+nav a:hover {
+  background-color: #ffc107;
+  color: #1a3c6e;
+}
+
+/* Main content */
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+/* Paragraphs */
+p {
+  font-size: 16px;
+}
+
+/* Links inside the page */
+main a {
+  color: #2f5aa0;
+}
+
+main a:hover {
+  color: #c0392b;
+}
+
+/* Lists */
+ul {
+  padding-left: 25px;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+}
+
+caption {
+  font-weight: bold;
+  padding: 8px;
+}
+
+th,
+td {
+  border: 1px solid #cccccc;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #1a3c6e;
+  color: #ffffff;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #1a3c6e;
+  color: #ffffff;
+}
